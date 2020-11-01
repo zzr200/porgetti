@@ -24,7 +24,7 @@ public class Main {
 			System.out.println("Eccezione Job Exit Status : "+ execution.getStatus());
 	 
 		} catch (JobExecutionException e) {
-			System.out.println("Job ExamResult fallito");
+			System.out.println("Job ExamResult fallitos");
 			e.printStackTrace();
 		}
 	}
